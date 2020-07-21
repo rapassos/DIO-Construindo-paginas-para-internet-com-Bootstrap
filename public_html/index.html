@@ -1,16 +1,74 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Curso: Construindo páginas para internet com Bootstrap</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
-        <div>Test</div>
+        <header id="topo">
+            <nav class="nav navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo_arthur_farma.png" width="220">
+                </a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#quem-somos">Quem somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#parceiros">Parceiros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#servicos">Serviços</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <section id="quem-somos">
+            <div class="container-fluid quem-somos text-center margem">
+                <h1>Quem somos</h1>
+                <img src="img/time.jpg" class="rounded-circle" width="250" height="250">
+                <h3>Somos um time comprometido com os resultados.</h3>
+                <div class="text-right"><a class="btn btn-light" href="#topo">Início</a></div>
+            </div>
+        </section>
+        <section id="parceiros">
+            <div class="container-fluid parceiros text-center margem">
+                <h1>Parceiros</h1>
+                <img src="img/logo_mais.jpg" class="rounded-circle" width="250" height="250">
+                <h3>Temos as melhores parcerias para oferecer os melhores resultados.</h3>
+                <div class="text-right"><a class="btn btn-light" href="#topo">Início</a></div>
+            </div>
+        </section>
+
+        <section id="servicos">
+            <div class="container-fluid servicos text-center margem">
+                <h1>Serviços</h1>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="img/site1.jpg" class="rounded-circle" width="250" height="250">
+                            <p class="text-justify">Temos as melhores parcerias para oferecer os melhores resultados.</p>
+                        </div>
+                        <div class="col-lg-4 border-primary border-left border-right">
+                            <p class="text-justify">Temos as melhores parcerias para oferecer os melhores resultados.</p>
+                            <img src="img/site2.jpg" class="rounded-circle" width="250" height="250">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/app.jpg" class="rounded-circle" width="250" height="250">
+                            <p class="text-justify">Temos as melhores parcerias para oferecer os melhores resultados.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-right"><a class="btn btn-light" href="#topo">Início</a></div>
+            </div>
+        </section>
+        <footer class="bg-footer container-fluid text-center margem">
+            <p class="text-center">Desenvovido por <a href="mailto:rapassos@gmail.com">Rapassos</a></p>
+        </footer>
     </body>
 </html>
