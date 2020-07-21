@@ -1,0 +1,13 @@
+{
+    "name": "DIO_-_Construindo_p_ginas_para_internet_com_Bootstrap",
+    "version": "1.0.0",
+    "main": "path/to/main.css",
+    "ignore": [
+        ".jshintrc",
+        "**/*.txt"
+    ],
+    "dependencies": {
+    },
+    "devDependencies": {
+    }
+}
